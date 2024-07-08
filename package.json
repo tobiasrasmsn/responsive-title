@@ -1,0 +1,36 @@
+{
+    "name": "responsive-title",
+    "version": "0.0.2",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "keywords": [
+        "component",
+        "text",
+        "title",
+        "full-width",
+        "react"
+    ],
+    "author": "tobiasrasmsn",
+    "license": "MIT",
+    "description": "A React component that displays responsive, full-width text that automatically adjusts to fit its container, regardless of character length.",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup src/index.ts --format cjs,esm --dts --external react"
+    },
+    "peerDependencies": {
+        "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+        "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+    },
+    "devDependencies": {
+        "@swc/core": "^1.6.13",
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "tsup": "^6.0.0",
+        "typescript": "^4.7.0"
+    }
+}
