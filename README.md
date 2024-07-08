@@ -20,10 +20,10 @@ function MyComponent() {
 
 ## Props
 
-| Prop | Type                               | Description                                                     |     |     |
-| ---- | ---------------------------------- | --------------------------------------------------------------- | --- | --- |
-| text | String                             | The text content to display (required)                          |     |     |
-| ...  | HTMLAttributes (excluding 'style') | Any valid HTML attributes for a div element (excluding 'style') |     |     |
+| Prop | Type                               | Description                                                     |
+| ---- | ---------------------------------- | --------------------------------------------------------------- |
+| text | String                             | The text content to display (required)                          |
+| ...  | HTMLAttributes (excluding 'style') | Any valid HTML attributes for a div element (excluding 'style') |
 
 ## Known Issues and Limitations
 
